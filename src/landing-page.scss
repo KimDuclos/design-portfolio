@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@900&family=Montserrat&display=swap');
+
+$bodoni-moda: "Bodoni Moda", serif;
+$montserrat: "Montserrat", sans-serif;
+
+.background {
+  background-color: #eddfdf;
+  width: auto;
+  height: 768px;
+}
+
+h1 {
+  padding: 10% 0 0 10%;
+  font-family: $bodoni-moda;
+}
+
+.par-1 {
+  padding: 0 0 0 10%;
+  font-family: $montserrat;
+}
+
+.par-2 {
+  padding: 0.5% 0 0 10%;
+  font-family: $montserrat;
+}
