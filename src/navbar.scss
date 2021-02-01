@@ -5,7 +5,6 @@ $bodoni-moda: "bodoni-mota", serif;
 $montserrat: "montserrat", sans-serif;
 
 .navbar {
-  border: 1px solid red;
   width: 100%;
   min-height: 6vh;
   display: flex;
@@ -16,7 +15,6 @@ $montserrat: "montserrat", sans-serif;
 }
 
 .navigation {
-  border: 1px solid orange;
   align-items: baseline;
   width: 100%;
   height: auto;
@@ -24,6 +22,7 @@ $montserrat: "montserrat", sans-serif;
   font-size: 16px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   a:hover {
     color: rgb(192, 191, 191);
   }
@@ -31,7 +30,6 @@ $montserrat: "montserrat", sans-serif;
     color: #000000;
   }
   ul {
-    border: 1px solid black;
     width: 25%;
     list-style-type: none;
     display: flex;
@@ -42,7 +40,6 @@ $montserrat: "montserrat", sans-serif;
     }
   }
   .logo {
-    border: 1px solid black;
     width: auto;
     height: auto;
     font-size: 34px;
