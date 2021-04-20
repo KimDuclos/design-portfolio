@@ -37,8 +37,8 @@ const About = () => {
         </p>
         <p>
           Outside of design and code, I love sailing, running, mountain
-          bikingand snowboarding. Recently, I decided to quit ski lifts and got
-          a touringset up so I could walk up the mountains instead. I like a
+          biking and snowboarding. Recently, I decided to quit ski lifts and got
+          a splitboard up so I could walk up the mountains instead. I like a
           challenge.
         </p>
       </div>
