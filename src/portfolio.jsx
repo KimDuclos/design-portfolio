@@ -1,5 +1,6 @@
 import React from "react";
 import PortfolioSection from "./portfolio-section.jsx";
+// import { ExternalLink } from "react-external-link";
 import "./portfolio.scss";
 import ProjectImg from "./project-img.jsx";
 
@@ -24,24 +25,29 @@ const Portfolio = () => {
           />
         </div>
       </div>
-      <div className="project-right proj-block">
-        <div className="proj-image">
-          <ProjectImg
-            projImg="/images/flex-together-img.png"
-            alt="flex together image"
-          />
-        </div>
-        <div className="proj-content">
-          <PortfolioSection
-            projectTitle="Flex Together"
-            projectContent="
+      {/* <ExternalLink
+        href="https://flextogether.netlify.app/"
+        style={{ textDecoration: "none", color: "black" }}
+      > */}
+        <div className="project-right proj-block">
+          <div className="proj-image">
+            <ProjectImg
+              projImg="/images/flex-together-img.png"
+              alt="flex together image"
+            />
+          </div>
+          <div className="proj-content">
+            <PortfolioSection
+              projectTitle="Flex Together"
+              projectContent="
             A physical health app for seniors to schedule
             paired virtual training sessions with 
             compatible partners."
-          />
+            />
+          </div>
         </div>
-      </div>
-      <div className="project-left proj-block">
+      {/* </ExternalLink> */}
+      {/* <div className="project-left proj-block">
         <div className="proj-content">
           <PortfolioSection
             projectTitle="SMA Real Estate"
@@ -57,8 +63,8 @@ const Portfolio = () => {
             alt="sma real estate image"
           />
         </div>
-      </div>
-      <div className="project-right proj-block">
+      </div> */}
+      {/* <div className="project-right proj-block">
         <div className="proj-image">
           <ProjectImg projImg="/images/pace-partner-img.png" />
         </div>
@@ -68,7 +74,7 @@ const Portfolio = () => {
           projectContent="An app to encourage safety among runners
           by pairing up."
         />
-      </div>
+      </div> */}
     </div>
   );
 };
