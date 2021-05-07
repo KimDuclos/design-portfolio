@@ -19,7 +19,7 @@ $montserrat: "montserrat", sans-serif;
   width: 100%;
   height: auto;
   font-family: $montserrat;
-  font-size: 16px;
+  font-size: 2em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -42,7 +42,7 @@ $montserrat: "montserrat", sans-serif;
   .logo {
     width: auto;
     height: auto;
-    font-size: 34px;
+    font-size: 2em;
     font-family: $bodoni-moda;
     font-weight: bold;
     text-decoration: none;

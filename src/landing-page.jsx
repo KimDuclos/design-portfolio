@@ -10,7 +10,7 @@ const LandingPage = () => {
           <h1>Hi, I'm Kim.</h1>
         </div>
         <div className="par-1">
-          <p>UX/UI Designer, Developer and Researcher</p>
+          <p>I'm a UX/UI Designer and Developer</p>
           <p>fascinated by the human connection to the</p>
           <p>online social world.</p>
         </div>
