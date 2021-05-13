@@ -1,12 +1,14 @@
+$size1500: "1500px";
+$size1000: "1000px";
+$size800: "800px";
+$size500: "500px";
+
 .circles {
-    height: 50%;
-    width: 50%;
-    // border: 1px solid black;
-    margin: 0 0 0 20%;
   .main {
+    // blue circle
+    // border: 1px solid black;
     width: 10%;
     height: 10%;
-    // border: 1px solid #ccc;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -15,12 +17,18 @@
     margin: auto;
     border-radius: 50%;
     margin: 22% 0 0 50%;
+    @media (max-width: $size1500) {
+      margin: 22.5% 0 0 60%;
+      height: 5%;
+      width: 5.5%;
+    }
   }
 
   .main-2 {
+    // pink circle
+    // border: 1px solid black;
     width: 10%;
     height: 10%;
-    // border: 1px solid #ccc;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -29,12 +37,18 @@
     margin: auto;
     border-radius: 50%;
     margin: 22% 0 0 10%;
+    @media (max-width: $size1500) {
+      margin: 28.5% 0 0 10%;
+      height: 5%;
+      width: 5.5%;
+    }
   }
 
   .main-3 {
+    // green circle
+    // border: 1px solid black;
     width: 10%;
     height: 10%;
-    // border: 1px solid #ccc;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -43,6 +57,11 @@
     margin: auto;
     border-radius: 50%;
     margin: 22% 0 0 10%;
+    @media (max-width: $size1500) {
+      margin: 25.5% 0 0 0;
+      height: 5%;
+      width: 5.5%;
+    }
   }
 
   .circle {

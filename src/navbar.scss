@@ -28,6 +28,14 @@ $size500: "500px";
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @media (max-width: $size1500) {
+    width: 90%;
+  }
+  @media (max-width: $size500) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   a:hover {
     color: rgb(192, 191, 191);
   }
@@ -41,9 +49,11 @@ $size500: "500px";
     justify-content: space-around;
     @media (max-width: $size1500) {
       width: 30%;
+      font-size: .8em;
     }
     @media (max-width: $size1000) {
-      font-size: .9em;
+      width: 40%;
+      font-size: .8em;
     }
     @media (max-width: $size800) {
       font-size: .7em;
@@ -52,7 +62,8 @@ $size500: "500px";
       padding: 0%;
     }
     @media (max-width: $size500) {
-      width: 60%;
+      width: 70%;
+      margin: 6% auto 0% auto;
     }
     :link {
       text-decoration: none;
@@ -68,6 +79,9 @@ $size500: "500px";
     text-decoration: none;
     color: #000000;
     margin: 0 0 0 1%;
+    @media (max-width: $size1500) {
+      font-size: 1.8em;
+    }
     :hover {
       color: rgb(192, 191, 191);
     }

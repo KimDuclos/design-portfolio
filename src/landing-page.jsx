@@ -10,14 +10,17 @@ const LandingPage = () => {
           <h1>Hi, I'm Kim.</h1>
         </div>
         <div className="par-1">
-          <p>I'm a UX/UI Designer and Developer</p>
-          <p>fascinated by the human connection to the</p>
-          <p>online social world.</p>
+          <p>
+            I'm a UX/UI Designer and Developer fascinated by the human
+            connection to the online social world.
+          </p>
         </div>
         <div className="par-2">
-          <p>Currently based in the Greater Seattle Area,</p>
-          <p>designing new experiences for consumers</p>
-          <p>and propietary web and mobile applications.</p>
+          <p>
+            Currently based in the Greater Seattle Area, designing new
+            experiences for consumers and propietary web and mobile
+            applications.
+          </p>
         </div>
       </div>
       <Circles />

@@ -3,17 +3,37 @@
 $bodoni-moda: "Bodoni Moda", serif;
 $montserrat: "Montserrat", sans-serif;
 
+$size1500: "1500px";
+$size1000: "1000px";
+$size800: "800px";
+$size500: "500px";
+
 .background {
-  background-color: #eddfdf;
+  background-image: linear-gradient(#eddfdf, rgb(190, 143, 180));
   width: auto;
   height: auto;
-  margin: 0 0 20% 0;
+  @media (max-width: $size1500) {
+    height: 800px;
+  }
+  @media (max-width: $size500) {
+    height: 800px;
+  }
 }
 
 h1 {
   font-size: 6em;
   padding: 5% 0 0 10%;
   font-family: $bodoni-moda;
+  @media (max-width: $size1500) {
+    font-size: 4.7em;
+    margin: 0 0 0 0;
+  }
+  @media (max-width: $size1000) {
+    font-size: 4em;
+  }
+  @media (max-width: $size500) {
+    padding: 2% 0 0 10%;
+  }
 }
 
 .par-1 {
@@ -21,11 +41,40 @@ h1 {
   color: #707070;
   padding: 0 0 0 10%;
   font-family: $montserrat;
+  width: 30%;
+  line-height: 1.8em;
+  @media (max-width: $size1500) {
+    font-size: 1.2em;
+  }
+  @media (max-width: $size1000) {
+    width: 40%;
+  }
+  @media (max-width: $size500) {
+    width: 80%;
+    padding: 0%;
+    margin: 0 auto 0 auto;
+    font-size: 1.15em;
+  }
 }
 
 .par-2 {
   font-size: 1.8em;
   color: #707070;
-  padding: 0.5% 0 0 10%;
+  padding: 0.5% 0 10% 10%;
   font-family: $montserrat;
+  width: 30%;
+  line-height: 1.8em;
+  @media (max-width: $size1500) {
+    font-size: 1.2em;
+  }
+  @media (max-width: $size1000) {
+    width: 40%;
+    padding: 0.5% 0 20% 10%;
+  }
+  @media (max-width: $size500) {
+    width: 80%;
+    padding: 0%;
+    margin: 10% auto 50% auto;
+    font-size: 1.15em;
+  }
 }
