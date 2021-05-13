@@ -25,7 +25,7 @@ h1 {
   padding: 5% 0 0 10%;
   font-family: $bodoni-moda;
   @media (max-width: $size1500) {
-    font-size: 4.7em;
+    font-size: 5em;
     margin: 0 0 0 0;
   }
   @media (max-width: $size1000) {
@@ -44,7 +44,8 @@ h1 {
   width: 30%;
   line-height: 1.8em;
   @media (max-width: $size1500) {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    width: 38%;
   }
   @media (max-width: $size1000) {
     width: 40%;
@@ -65,7 +66,8 @@ h1 {
   width: 30%;
   line-height: 1.8em;
   @media (max-width: $size1500) {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    width: 38%;
   }
   @media (max-width: $size1000) {
     width: 40%;

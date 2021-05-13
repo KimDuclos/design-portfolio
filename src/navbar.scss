@@ -28,9 +28,6 @@ $size500: "500px";
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  @media (max-width: $size1500) {
-    width: 90%;
-  }
   @media (max-width: $size500) {
     display: flex;
     flex-direction: column;
@@ -52,8 +49,9 @@ $size500: "500px";
       font-size: .8em;
     }
     @media (max-width: $size1000) {
-      width: 40%;
+      width: 100%;
       font-size: .8em;
+      margin: 0 0 0 25%;
     }
     @media (max-width: $size800) {
       font-size: .7em;
