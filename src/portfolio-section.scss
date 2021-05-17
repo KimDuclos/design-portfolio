@@ -2,14 +2,30 @@
 
 $montserrat: "montserrat", sans-serif;
 
+$size1500: "1500px";
+$size1000: "1000px";
+$size800: "800px";
+$size500: "500px";
+$size375: "375px";
+
 .proj-block {
   padding: 0 5% 0 5%;
   .proj-content {
     width: 40%;
-    padding: 0 10% 0 0;
+    padding: 0 5% 0 5%;
+    @media (max-width: $size500) {
+      width: 80%;
+      margin: 5% auto 0 auto;
+    }
+    @media (max-width: $size375) {
+      width: 100%;
+    }
   }
   .proj-image {
     width: 60%;
+    @media (max-width: $size500) {
+      width: 80%;
+    }
   }
 }
 
@@ -18,6 +34,19 @@ $montserrat: "montserrat", sans-serif;
   font-weight: bolder;
   font-size: 3.5em;
   margin: 0 0 4% 0;
+  @media (max-width: $size1500) {
+    font-size: 2.4em;
+  }
+  @media (max-width: $size1000) {
+    font-size: 1.6em;
+  }
+  @media (max-width: $size800) {
+    font-size: 1.3em;
+  }
+  @media (max-width: $size500) {
+    margin: 0 0 5% 0;
+    text-align: center;
+  }
 }
 
 .project-content {
@@ -26,4 +55,13 @@ $montserrat: "montserrat", sans-serif;
   font-size: 2em;
   line-height: 1.5em;
   color: rgb(112, 112, 112);
+  @media (max-width: $size1500) {
+    font-size: 1.7em;
+  }
+  @media (max-width: $size1000) {
+    font-size: 1.5em;
+  }
+  @media (max-width: $size800) {
+    font-size: 1.2em;
+  }
 }

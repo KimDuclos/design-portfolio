@@ -3,21 +3,52 @@
 $bodoni-moda: "Bodoni-Moda", serif;
 $montserrat: "Montserrat", sans-serif;
 
+$size1500: "1500px";
+$size1000: "1000px";
+$size800: "800px";
+$size500: "500px";
+$size375: "375px";
+
 .about-section {
   background-color: white;
-  padding: 0% 0 10% 0;;
+  padding: 0% 0 10% 0;
   display: flex;
   flex-direction: row;
   padding: 0 0 0 5%;
+  @media (max-width: $size500) {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
   .photos {
     display: flex;
     flex-direction: column;
     margin: 8% 3% 0 5%;
+    @media (max-width: $size500) {
+      width: 90%;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 8% 0% 0 0%;
+    }
+    @media (max-width: $size375) {
+      margin: 8% auto;
+      max-width: 100%;
+    }
+    .photo-1 {
+      @media (max-width: $size500) {
+        margin: 0%;
+      }
+    }
     .photo-2 {
-        margin: -10% 0 0 20%;
+      margin: -10% 0 0 20%;
+      @media (max-width: $size500) {
+        margin: 0%;
+      }
     }
     .photo-3 {
-        margin: -10% 0 0 0;
+      margin: -10% 0 0 0;
+      @media (max-width: $size500) {
+        margin: 0%;
+      }
     }
   }
 
@@ -27,6 +58,21 @@ $montserrat: "Montserrat", sans-serif;
     font-weight: bolder;
     color: black;
     margin: 14% 0 0 0;
+    @media (max-width: $size1500) {
+      font-size: 1.6em;
+    }
+    @media (max-width: $size1000) {
+      font-size: 1.3em;
+    }
+    @media (max-width: $size500) {
+      text-align: center;
+    }
+  }
+
+  .about-par {
+    @media (max-width: $size500) {
+      font-size: 0.9em;
+    }
   }
 
   .about-content {
@@ -36,5 +82,19 @@ $montserrat: "Montserrat", sans-serif;
     line-height: 1.5;
     margin: 2% 0 0 15%;
     color: rgb(112, 112, 112);
+    @media (max-width: $size1500) {
+      font-size: 1.5em;
+    }
+    @media (max-width: $size1000) {
+      font-size: 1.3em;
+    }
+    @media (max-width: $size500) {
+      width: 90%;
+      margin: 0%;
+    }
+    @media (max-width: $size375) {
+      margin: 0 auto;
+      font-size: 1.1em;
+    }
   }
 }

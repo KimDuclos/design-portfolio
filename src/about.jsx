@@ -25,17 +25,17 @@ const About = () => {
       </div>
       <div className="about-content">
         <div className="about-title">From IT to UX and Development</div>
-        <p>
+        <p className="about-par">
           Hey there, I'm Kim - a designer, developer, and researcher. Stemming
           from my background in user-end IT support, I developed a love for the
           connection between the user and all types of technology.
         </p>
-        <p>
+        <p className="about-par">
           Since changing careers and entering the world of web design, I've
           applied what I know about the human-technology connection to my app
           and website creations.
         </p>
-        <p>
+        <p className="about-par">
           Outside of design and code, I love sailing, running, mountain
           biking and snowboarding. Recently, I decided to quit ski lifts and got
           a splitboard set-up so I could walk up the mountains instead. I like a

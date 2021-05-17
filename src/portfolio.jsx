@@ -6,8 +6,8 @@ import ProjectImg from "./project-img.jsx";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio">
-      <div id="portfolio"></div>
+    <div className="portfolio" id="portfolio">
+      <div></div>
       <div className="project-left proj-block">
         <div className="proj-content">
           <PortfolioSection

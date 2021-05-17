@@ -8,6 +8,7 @@ $size1500: "1500px";
 $size1000: "1000px";
 $size800: "800px";
 $size500: "500px";
+$size375: "375px";
 
 .navbar {
   width: 100%;
@@ -17,6 +18,13 @@ $size500: "500px";
   background-color: none;
   transition: all 0.7s ease-in;
   text-decoration: none;
+  @media (max-width: $size500) {
+    width: 100%;
+    margin: 0%;
+  }
+  @media (max-width: $size375) {
+    width: 100%;
+  }
 }
 
 .navigation {
@@ -32,6 +40,9 @@ $size500: "500px";
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  @media (max-width: $size375) {
+    width: 100%;
   }
   a:hover {
     color: rgb(192, 191, 191);
@@ -50,8 +61,8 @@ $size500: "500px";
     }
     @media (max-width: $size1000) {
       width: 100%;
-      font-size: .8em;
-      margin: 0 0 0 25%;
+      font-size: .7em;
+      margin: 0 0 0 45%;
     }
     @media (max-width: $size800) {
       font-size: .7em;
@@ -62,6 +73,10 @@ $size500: "500px";
     @media (max-width: $size500) {
       width: 70%;
       margin: 6% auto 0% auto;
+    }
+    @media (max-width: $size375) {
+      width: 100%;
+      margin: 0%;
     }
     :link {
       text-decoration: none;
@@ -79,6 +94,9 @@ $size500: "500px";
     margin: 0 0 0 1%;
     @media (max-width: $size1500) {
       font-size: 1.8em;
+    }
+    @media (max-width: $size375) {
+      margin: 10% 0 5% 0;
     }
     :hover {
       color: rgb(192, 191, 191);

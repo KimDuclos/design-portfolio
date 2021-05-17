@@ -1,5 +1,14 @@
+$size500: "500px";
+$size375: "375px";
+
 .prof-photos img {
     width: 250px;
     box-shadow: 3px 3px 25px 6px #ccc;
     border-radius: 8px;
+    @media (max-width: $size500) {
+        width: 135px;
+    }
+    @media (max-width: $size375) {
+        width: 100px;
+    }
 }

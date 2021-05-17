@@ -2,11 +2,12 @@ $size1500: "1500px";
 $size1000: "1000px";
 $size800: "800px";
 $size500: "500px";
+$size375: "375px";
 
 .circles {
   .main {
     // blue circle
-    border: 1px solid black;
+    // border: 1px solid black;
     width: 10%;
     height: 10%;
     position: absolute;
@@ -18,15 +19,32 @@ $size500: "500px";
     border-radius: 50%;
     margin: 22% 0 0 50%;
     @media (max-width: $size1500) {
-      margin: 22.5% 0 0 70%;
+      margin: 22.5% 0 0 60%;
       height: 8%;
       width: 8.5%;
+    }
+    @media (max-width: $size1000) {
+      margin: 42% 0 0 55%;
+      height: 7.5%;
+      width: 12%;
+    }
+    @media (max-width: $size800) {
+      margin: 75% 0 0 65%;
+      height: 4.5%;
+      width: 9%;
+    }
+    @media (max-width: $size500) {
+      margin: 130% 0 0 30%;
+      height: 3%;
+    }
+    @media (max-width: $size375) {
+      display: none;
     }
   }
 
   .main-2 {
     // pink circle
-    border: 1px solid black;
+    // border: 1px solid black;
     width: 10%;
     height: 10%;
     position: absolute;
@@ -38,15 +56,32 @@ $size500: "500px";
     border-radius: 50%;
     margin: 22% 0 0 10%;
     @media (max-width: $size1500) {
-      margin: 28.5% 0 0 20%;
+      margin: 32.5% 0 0 20%;
       height: 8%;
       width: 8.5%;
+    }
+    @media (max-width: $size1000) {
+      margin: 42% 0 0 15%;
+      height: 7.5%;
+      width: 12%;
+    }
+    @media (max-width: $size800) {
+      margin: 75% 0 0 0%;
+      height: 4.5%;
+      width: 9%;
+    }
+    @media (max-width: $size500) {
+      margin: 125% 0 0 -5%;
+      height: 3%;
+    }
+    @media (max-width: $size375) {
+      display: none;
     }
   }
 
   .main-3 {
     // green circle
-    border: 1px solid black;
+    // border: 1px solid black;
     width: 10%;
     height: 10%;
     position: absolute;
@@ -58,9 +93,26 @@ $size500: "500px";
     border-radius: 50%;
     margin: 22% 0 0 10%;
     @media (max-width: $size1500) {
-      margin: 25.5% 0 0 10%;
+      margin: 25.5% 0 0 101000%;
       height: 8%;
       width: 8.5%;
+    }
+    @media (max-width: $size1000) {
+      margin: 45% 0 0 0%;
+      height: 7.5%;
+      width: 12%;
+    }
+    @media (max-width: $size800) {
+      margin: 75% 0 0 5%;
+      height: 4.5%;
+      width: 9%;
+    }
+    @media (max-width: $size500) {
+      margin: 125% 0 0 -5%;
+      height: 3%;
+    }
+    @media (max-width: $size375) {
+      display: none;
     }
   }
 
@@ -139,5 +191,29 @@ $size500: "500px";
   }
   100% {
     transform: rotate(360deg) translate(-165px) rotate(-360deg);
+  }
+}
+
+//rotation width at 1500
+@media (max-width: $size1500) {
+  @keyframes circle {
+    0% {
+      transform: rotate(0deg) translate(-55px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(-55px) rotate(-360deg);
+    }
+  }
+}
+
+// rotation width at 800
+@media (max-width: $size800) {
+  @keyframes circle {
+    0% {
+      transform: rotate(0deg) translate(-75px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(-75px) rotate(-360deg);
+    }
   }
 }
