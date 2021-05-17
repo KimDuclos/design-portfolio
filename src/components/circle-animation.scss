@@ -38,7 +38,8 @@ $size375: "375px";
       height: 3%;
     }
     @media (max-width: $size375) {
-      display: none;
+      height: 2.2%;
+      margin: 185% 0 0 30%;
     }
   }
 
@@ -75,7 +76,8 @@ $size375: "375px";
       height: 3%;
     }
     @media (max-width: $size375) {
-      display: none;
+      height: 2%;
+      margin: 190% 0 0 -5%;
     }
   }
 
@@ -112,7 +114,8 @@ $size375: "375px";
       height: 3%;
     }
     @media (max-width: $size375) {
-      display: none;
+      height: 2%;
+      margin: 195% 0 0 -5%;
     }
   }
 
@@ -214,6 +217,18 @@ $size375: "375px";
     }
     100% {
       transform: rotate(360deg) translate(-75px) rotate(-360deg);
+    }
+  }
+}
+
+// rotation width at 375
+@media (max-width: $size375) {
+  @keyframes circle {
+    0% {
+      transform: rotate(0deg) translate(-25px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(-25px) rotate(-360deg);
     }
   }
 }

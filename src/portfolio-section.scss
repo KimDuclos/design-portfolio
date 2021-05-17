@@ -17,9 +17,6 @@ $size375: "375px";
       width: 80%;
       margin: 5% auto 0 auto;
     }
-    @media (max-width: $size375) {
-      width: 100%;
-    }
   }
   .proj-image {
     width: 60%;
@@ -63,5 +60,9 @@ $size375: "375px";
   }
   @media (max-width: $size800) {
     font-size: 1.2em;
+  }
+  @media (max-width: $size375) {
+    font-size: 1.1em;
+    text-align: center;
   }
 }
