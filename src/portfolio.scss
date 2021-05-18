@@ -33,8 +33,11 @@ $size500: "500px";
 .view-demo {
   font-family: $montserrat;
   color: black;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
+  :hover {
+    color: gray;
+  }
   :link {
     text-decoration: none;
     color: black;
