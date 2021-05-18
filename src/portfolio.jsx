@@ -17,6 +17,15 @@ const Portfolio = () => {
             a place to showcase their work and allow 
             customers to easily reach them."
           />
+          <p className="view-demo">
+            <a
+              href="https://belleroseinteriordesign.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Demo
+            </a>
+          </p>
         </div>
         <div className="proj-image">
           <ProjectImg
@@ -25,27 +34,32 @@ const Portfolio = () => {
           />
         </div>
       </div>
-      {/* <ExternalLink
-        href="https://flextogether.netlify.app/"
-        style={{ textDecoration: "none", color: "black" }}
-      > */}
-        <div className="project-right proj-block">
-          <div className="proj-image">
-            <ProjectImg
-              projImg="/images/flex-together-img.png"
-              alt="flex together image"
-            />
-          </div>
-          <div className="proj-content">
-            <PortfolioSection
-              projectTitle="Flex Together"
-              projectContent="
+      <div className="project-right proj-block">
+        <div className="proj-image">
+          <ProjectImg
+            projImg="/images/flex-together-img.png"
+            alt="flex together image"
+          />
+        </div>
+        <div className="proj-content">
+          <PortfolioSection
+            projectTitle="Flex Together"
+            projectContent="
             A physical health app for seniors to schedule
             paired virtual training sessions with 
             compatible partners."
-            />
-          </div>
+          />
+          <p className="view-demo">
+            <a
+              href="https://flextogether.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Demo
+            </a>
+          </p>
         </div>
+      </div>
       {/* </ExternalLink> */}
       {/* <div className="project-left proj-block">
         <div className="proj-content">

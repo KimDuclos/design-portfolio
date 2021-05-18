@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@900&family=Montserrat&display=swap");
+
+$montserrat: "montserrat", sans-serif;
+
 $size500: "500px";
 
 .portfolio {
@@ -23,5 +27,19 @@ $size500: "500px";
       display: flex;
       flex-direction: column;
     }
+  }
+}
+
+.view-demo {
+  font-family: $montserrat;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  :link {
+    text-decoration: none;
+    color: black;
+  }
+  a {
+    color: black;
   }
 }
