@@ -7,7 +7,7 @@ import ProjectImg from "./project-img.jsx";
 const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
-      <div></div>
+      {/* Bellorose Design */}
       <div className="project-left proj-block">
         <div className="proj-content">
           <PortfolioSection
@@ -34,6 +34,7 @@ const Portfolio = () => {
           />
         </div>
       </div>
+      {/* Flex Together */}
       <div className="project-right proj-block">
         <div className="proj-image">
           <ProjectImg
@@ -61,34 +62,31 @@ const Portfolio = () => {
         </div>
       </div>
       {/* </ExternalLink> */}
-      {/* <div className="project-left proj-block">
+      <div className="project-left proj-block">
         <div className="proj-content">
           <PortfolioSection
-            projectTitle="SMA Real Estate"
-            projectContent="A real estate aggregation site made to collect
-            regional listings in one location. Users are lead
-            to participating agencies where they will view
-            housing specifically listed for included agents"
+            projectTitle="Storm Peak Engineering"
+            projectContent="Informational site created for a small engineering 
+            consulting firm. The clients wanted to be easily contacted and 
+            for the user to clearly know services provided."
           />
+          <p className="view-demo">
+            <a
+              href="https://www.stormpeakeng.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Demo
+            </a>
+          </p>
         </div>
         <div className="proj-image">
           <ProjectImg
-            projImg="/images/sma-real-estate-img.png"
-            alt="sma real estate image"
+            projImg="/images/storm-peak-eng.png"
+            alt="bellerose real estate image"
           />
         </div>
-      </div> */}
-      {/* <div className="project-right proj-block">
-        <div className="proj-image">
-          <ProjectImg projImg="/images/pace-partner-img.png" />
-        </div>
-        <PortfolioSection
-          id="project-right"
-          projectTitle="Pace Partner"
-          projectContent="An app to encourage safety among runners
-          by pairing up."
-        />
-      </div> */}
+      </div>
     </div>
   );
 };
