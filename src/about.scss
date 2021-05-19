@@ -15,6 +15,9 @@ $size375: "375px";
   display: flex;
   flex-direction: row;
   padding: 5% 0 0 5%;
+  @media (max-width: $size1000) {
+    padding: 10% 0 10% 0;
+  }
   @media (max-width: $size500) {
     width: 100%;
     flex-direction: column-reverse;
@@ -62,7 +65,6 @@ $size375: "375px";
       font-size: 1.6em;
     }
     @media (max-width: $size1000) {
-      padding: 16% 0 0 0;
       font-size: 1.3em;
     }
     @media (max-width: $size500) {
