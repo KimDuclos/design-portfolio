@@ -73,6 +73,10 @@ $size375: "375px";
   }
 
   .about-par {
+    @media (max-width: $size800) {
+      width: 90%;
+      font-size: 90%;
+    }
     @media (max-width: $size500) {
       font-size: 0.9em;
     }
