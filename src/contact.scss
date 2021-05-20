@@ -10,6 +10,9 @@ $size375: "375px";
 .contact {
   padding: 5% 0 10% 5%;
   background-color: white;
+  @media (max-width: $size800) {
+    padding: 5% 0 10% 0;
+  }
   @media (max-width: $size500) {
     width: 100%;
   }
@@ -19,7 +22,6 @@ $size375: "375px";
     font-weight: bold;
     margin: 20% 0 2% 0;
     @media (max-width: $size800) {
-      padding: 5% 0 10% 0;
       margin: 0 auto;
       width: 80%;
     }
