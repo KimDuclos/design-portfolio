@@ -27,9 +27,9 @@ $size375: "375px";
     flex-direction: column;
     margin: 8% 3% 0 5%;
     @media (max-width: $size500) {
-      width: 90%;
+      width: 100%;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-around;
       margin: 8% 0% 0 0%;
     }
     @media (max-width: $size375) {
