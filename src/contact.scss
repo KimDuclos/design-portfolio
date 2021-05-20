@@ -19,7 +19,8 @@ $size375: "375px";
     font-weight: bold;
     margin: 20% 0 2% 0;
     @media (max-width: $size800) {
-      margin: 0 0 0 10%;
+      margin: 0 auto;
+      width: 80%;
     }
     @media (max-width: $size500) {
       width: 90%;
@@ -63,7 +64,8 @@ $size375: "375px";
     justify-content: space-between;
     margin: 2% 0 10% 0;
     @media (max-width: $size800) {
-      margin: 2% 0 0 10%;
+      margin: 2% auto 0 auto;
+      width: 26.5%;
     }
     @media (max-width: $size500) {
       width: 80%;
