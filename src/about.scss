@@ -79,6 +79,7 @@ $size375: "375px";
     }
     @media (max-width: $size500) {
       font-size: 0.9em;
+      margin: 2% 0 0 0;
     }
   }
 
@@ -98,7 +99,7 @@ $size375: "375px";
     }
     @media (max-width: $size500) {
       width: 90%;
-      margin: 0%;
+      margin: 2% auto;
     }
     @media (max-width: $size375) {
       margin: 0 auto;
