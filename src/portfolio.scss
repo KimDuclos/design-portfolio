@@ -35,6 +35,9 @@ $size500: "500px";
   color: black;
   font-size: 2em;
   font-weight: bold;
+  @media (max-width: $size800) {
+    font-size: 1em;
+  }
   :hover {
     color: gray;
   }
