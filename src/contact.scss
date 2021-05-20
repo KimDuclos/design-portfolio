@@ -75,7 +75,7 @@ $size375: "375px";
     }
     @media (max-width: $size500) {
       width: 80%;
-      margin: 5% auto 10% auto;
+      margin: 5% 0 10% 10%;
     }
     @media (max-width: $size375) {
       width: 50%;
@@ -87,7 +87,7 @@ $size375: "375px";
     margin: 5% auto;
     text-align: center;
     @media (max-width: $size500) {
-      margin: 0%;
+      margin: ;
       text-align: center;
       width: 90%;
     }
