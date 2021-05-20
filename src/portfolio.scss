@@ -39,6 +39,9 @@ $size800: "800px";
   @media (max-width: $size800) {
     font-size: 1em;
   }
+  @media (max-width: $size500) {
+    text-align: center;
+  }
   :hover {
     color: gray;
   }
