@@ -115,4 +115,7 @@ $size375: "375px";
   @media (max-width: $size500) {
     width: 90.9%;
   }
+  @media (max-width: $size375) {
+    width: 100%;
+  }
 }
