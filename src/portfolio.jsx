@@ -1,6 +1,5 @@
 import React from "react";
 import PortfolioSection from "./portfolio-section.jsx";
-// import { ExternalLink } from "react-external-link";
 import "./portfolio.scss";
 import ProjectImg from "./project-img.jsx";
 
