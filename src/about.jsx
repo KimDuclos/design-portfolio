@@ -36,10 +36,9 @@ const About = () => {
           and website creations.
         </p>
         <p className="about-par">
-          Outside of design and code, I love sailing, running, mountain
-          biking and snowboarding. Recently, I decided to quit ski lifts and got
-          a splitboard set-up so I could walk up the mountains instead. I like a
-          challenge.
+          Outside of design and code, I love sailing, running, mountain biking
+          and snowboarding. I crave physical challenges as much as technical
+          challenges!
         </p>
       </div>
     </div>
