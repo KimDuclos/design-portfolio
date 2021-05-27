@@ -3,7 +3,9 @@ import "./social-icons.scss";
 
 const SocialIcons = (props) => {
   return (
-      <img className="social-icon" src={props.icon} alt={props.altText} />
+    <div className="social-icon">
+      <img src={props.icon} alt={props.altText} />
+    </div>
   );
 };
 
