@@ -7,11 +7,11 @@ const TechSkills = () => {
     <div className="tech-skills">
       <TechIcon techIcon="/images/react-logo.svg" />
       <TechIcon techIcon="/images/js-logo.svg" />
-      <TechIcon techIcon="/images/node-logo.svg" />
       <TechIcon techIcon="/images/sass-logo.svg" />
+      <TechIcon techIcon="/images/node-logo.svg" />
+      <TechIcon techIcon="/images/css-logo.svg" />
       <TechIcon techIcon="/images/less-logo.svg" />
       <TechIcon techIcon="/images/html-logo.svg" />
-      <TechIcon techIcon="/images/css-logo.svg" />
     </div>
   );
 };

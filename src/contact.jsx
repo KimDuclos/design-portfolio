@@ -22,7 +22,7 @@ const Contact = () => {
       <div className="skills-section">
         <TechSkills />
       </div>
-      <p className="copyright 2021 and beyond">Copyright &copy; Kim Duclos</p>
+      <p className="copyright">Copyright &copy; Kim Duclos</p>
     </div>
   );
 };
