@@ -11,8 +11,8 @@ $size375: "375px";
 
 .background {
   background-image: linear-gradient(#eddfdf, rgb(190, 143, 180));
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100vh;
   @media (max-width: $size1500) {
     height: 800px;
   }

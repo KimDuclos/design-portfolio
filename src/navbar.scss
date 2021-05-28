@@ -109,8 +109,9 @@ $size375: "375px";
   top: 0;
   left: 0;
   background-color: white;
+  width: 100%;
   @media (max-width: $size800) {
-    width: 100%;
+    width: 83.3%;
   }
   @media (max-width: $size500) {
     width: 90.9%;
