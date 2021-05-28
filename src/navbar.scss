@@ -111,7 +111,7 @@ $size375: "375px";
   background-color: white;
   width: 100%;
   @media (max-width: $size800) {
-    width: 83.3%;
+    width: 100vh;
   }
   @media (max-width: $size500) {
     width: 90.9%;
