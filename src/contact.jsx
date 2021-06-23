@@ -14,17 +14,17 @@ const Contact = () => {
         I'm hoping to continue the dig into human-tech connections. Let's get in
         touch.
       </div>
-      {/* <div className="social-icons">
+      <div className="social-icons">
         <a href="http://www.github.com/KimDuclos">
           <SocialIcons icon="/images/github-icon.png" alt="github icon" />
         </a>
         <div href="http://www.linkedin.com/in/KimDuclos">
           <SocialIcons icon="/images/linkedin-icon.png" alt="linkedin icon" />
         </div>
-        <div href="http://www.dribble.com/KimDuclos">
+        {/* <div href="http://www.dribble.com/KimDuclos">
           <SocialIcons icon="/images/dribble-icon.png" alt="dribble icon" />
-        </div>
-      </div> */}
+        </div> */}
+      </div>
       <div className="skills-section">
         <TechSkills />
       </div>
