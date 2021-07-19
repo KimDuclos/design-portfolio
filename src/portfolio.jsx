@@ -18,7 +18,7 @@ const Portfolio = () => {
           />
           <p className="view-demo">
             <a
-              href="https://belleroseinteriordesign.netlify.app/"
+              href="https://www.figma.com/file/R9b2q6Sjup07RGAwSp1tdR/Bellerose-Interior-Design?node-id=0%3A1"
               target="_blank"
               rel="noreferrer"
             >
