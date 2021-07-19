@@ -22,7 +22,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noreferrer"
             >
-              View Site
+              View Wireframes
             </a>
           </p>
         </div>
